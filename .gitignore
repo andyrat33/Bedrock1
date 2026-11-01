@@ -36,3 +36,12 @@ build/
 # IDE / local tooling
 .idea/
 .op/
+!.env.example
+node_modules/
+*.tfstate
+*.tfstate.*
+.terraform/
+.claude/settings.local.json
+.claude/worktrees/
+.idea/workspace.xml
+.hatch-pet-runs/
